@@ -32,3 +32,19 @@ exercise3.appendChild(exercise3a);
 const exercise3b = document.createElement('p');
 exercise3b.textContent = "ME TOO!";
 exercise3.appendChild(exercise3b);
+
+btn.addEventListener('click', function (e) {
+    console.log(e);
+  });
+
+btn.addEventListener('click', function (e) {
+console.log(e.target);
+});
+
+// btn.addEventListener('click', function (e) {
+//     e.target.style.background = 'blue';
+//   });
+
+  btn.addEventListener('dblclick', function (e) {
+    e.target.style.background = 'pink';
+  });

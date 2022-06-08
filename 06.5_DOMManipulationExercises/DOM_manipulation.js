@@ -19,5 +19,16 @@ const exercise3 = document.createElement('div');
 exercise3.classList.add('exercise3');
 exercise3.style['border'] = "3px solid black";
 exercise3.style['background-color'] = 'pink';
-exercise3.textContent = "test"
+// exercise3.textContent = "test"
 container.appendChild(exercise3);
+
+//part a (add another h1)
+
+const exercise3a = document.createElement('h1');
+exercise3a.textContent = "I'm a div";
+exercise3.appendChild(exercise3a);
+
+//part b 
+const exercise3b = document.createElement('p');
+exercise3b.textContent = "ME TOO!";
+exercise3.appendChild(exercise3b);

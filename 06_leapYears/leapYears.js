@@ -6,10 +6,10 @@ const leapYears = function(inputYear) {
     return false;
 };
 
-console.log(leapYears(1984))
-console.log(leapYears(1900))
-console.log(leapYears(2000))
-console.log(leapYears(2004))
+// console.log(leapYears(1984))
+// console.log(leapYears(1900))
+// console.log(leapYears(2000))
+// console.log(leapYears(2004))
 
 
 // Do not edit below this line

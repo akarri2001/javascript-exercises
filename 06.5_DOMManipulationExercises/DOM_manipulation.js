@@ -8,3 +8,7 @@ exercise1.style['color'] = "red";
 container.appendChild(exercise1);
 
 
+const exercise2 = document.createElement('h3');
+exercise2.textContent = "I'm a blue h3!";
+exercise2.style['color'] = 'blue';
+container.appendChild(exercise2);
